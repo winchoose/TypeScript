@@ -6,3 +6,11 @@ function func1(): string {
 function func2():void{
     console.log("hello");
 };
+
+function func3():never {
+    while(true){}
+}
+
+function func4():never {
+    throw new Error();
+}
